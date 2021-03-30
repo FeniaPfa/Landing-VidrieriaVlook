@@ -113,12 +113,15 @@ header{
 
 .nav-link{
     display: block;
-    color: #fff!important;
+    color: #fff;
     text-transform: uppercase;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-right: -2px;
     transition: color .5s;
+}
+.nav-link a:link{
+    color: white;
 }
 
 .nav-link:hover{
